@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stenosis"
+version = "1.0.0"
+authors = [
+  { name="Cesar Comin"},
+]
+description = "Utility modules and functions for identifying blottlenecks on Neural Network training and inference."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/chcomin/stenosis"
+
+[tool.setuptools]
+packages = ["stenosis"]

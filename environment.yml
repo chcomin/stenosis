@@ -1,0 +1,21 @@
+name: stenosis
+
+channels:
+  - conda-forge
+  - nodefaults   
+
+dependencies:
+  - python
+  - uv
+  - pytorch
+  - torchvision
+  - cupy
+  - cuda-version>=12.8
+  - psutil
+  - gputil
+  - nvidia-ml-py
+  - pandas
+  - numpy
+  - pillow
+  - setuptools   
+  - wheel        
